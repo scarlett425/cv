@@ -43,7 +43,7 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> winters.scarlett.e@gmail.com
-- <i class="fa fa-twitter"></i> @ScarData
+- <i class="fa fa-twitter"></i> @Scar_Data
 - <i class="fa fa-linkedin"></i> linkedin.com/in/scarlett-winters
 - <i class="fa fa-github"></i> github.com/scarlett425
 - <i class="fa fa-phone"></i> (312) 805-9540
