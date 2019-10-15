@@ -16,8 +16,8 @@ knitr::opts_chunk$set(
 )
 library(tidyverse)
 library(glue)
-library(purrr)
-library(tidyr)
+library(rmarkdown)
+library(knitr)
 
 # Set this to true to have links turned into footnotes at the end of the document
 PDF_EXPORT <- FALSE
@@ -35,8 +35,6 @@ position_data <- read_csv('positions.csv') %>%
 ```
 
 
-
-
 Aside
 ================================================================================
 
@@ -44,27 +42,29 @@ Aside
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-
-
 - <i class="fa fa-envelope"></i> winters.scarlett.e@gmail.com
-- <i class="fa fa-twitter"></i> ScarData
+- <i class="fa fa-twitter"></i> @ScarData
+- <i class="fa fa-linkedin"></i> linkedin.com/in/scarlett-winters
 - <i class="fa fa-github"></i> github.com/scarlett425
 - <i class="fa fa-phone"></i> (312) 805-9540
-
-
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-
-Highly experienced in
-
+Highly experienced in:
 
 - SQL
 - Python
 - Tableau
-- Requirements Analysis
+- Requirements analysis
 - Consulting
+- Code review
+
+Continuous understanding in:
+
+- R
+- Predictive analytics
+- Software development practices
 
 --------------------------------------------------------------------------------
 
@@ -73,7 +73,7 @@ Disclaimer {#disclaimer}
 
 Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
 
-Source code: [github.com/nstrayer/cv](https://github.com/scarlett425/cv).
+Source code: [github.com/nstrayer/cv](https://github.com/scarlett425/cv)
 
 Last updated on `r Sys.Date()`.
 
@@ -84,14 +84,12 @@ Scarlett Winters {#title}
 --------------------------------------------------------------------------------
 
 
-
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('education')
 ```
-
 
 
 Academic Achievements & Projects {data-icon=suitcase}
