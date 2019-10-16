@@ -60,11 +60,24 @@ Highly experienced in:
 - Consulting
 - Code review
 
-Continuous understanding in:
+Growing understanding in:
 
 - R
 - Predictive analytics
 - Software development practices
+
+Projects {#projects}
+--------------------------------------------------------------------------------
+
+Independent projects:
+
+- A "Digital Me" analysis of my Google Location data
+
+- Predictive analysis surrounding Chicago crime data
+
+- Study on global coastal waste
+
+- #TidyTuesday challenges
 
 --------------------------------------------------------------------------------
 
