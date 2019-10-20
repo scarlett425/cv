@@ -20,7 +20,7 @@ library(rmarkdown)
 library(knitr)
 
 # Set this to true to have links turned into footnotes at the end of the document
-PDF_EXPORT <- FALSE
+PDF_EXPORT <- TRUE
 
 # Holds all the links that were inserted for placement at the end
 links <- c()
@@ -43,33 +43,28 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> winters.scarlett.e@gmail.com
-- <i class="fa fa-twitter"></i> @Scar_Data
-- <i class="fa fa-linkedin"></i> linkedin.com/in/scarlett-winters
-- <i class="fa fa-github"></i> github.com/scarlett425
+- <i class="fa fa-linkedin"></i> [/scarlett-winters](www.linkedin.com/in/scarlett-winters)
+- <i class="fa fa-github"></i> [github.com/scarlett425](https://github.com/scarlett425)
 - <i class="fa fa-phone"></i> (312) 805-9540
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-Highly experienced in:
-
 - SQL
 - Python
 - Tableau
+- R
+- ETL
+- Presentations
+- Data visualization
 - Requirements analysis
 - Consulting
 - Code review
-
-Growing understanding in:
-
-- R
 - Predictive analytics
-- Software development practices
+- Git
 
-Projects {#projects}
+Analytical Pursuits {#projects}
 --------------------------------------------------------------------------------
-
-Independent projects:
 
 - A "Digital Me" analysis of my Google Location data
 
@@ -105,7 +100,7 @@ position_data %>% print_section('education')
 ```
 
 
-Academic Achievements & Projects {data-icon=suitcase}
+Projects {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
