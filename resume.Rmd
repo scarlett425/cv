@@ -55,7 +55,6 @@ Skills {#skills}
 - Tableau
 - R
 - ETL
-- Presentations
 - Data visualization
 - Requirements analysis
 - Consulting
