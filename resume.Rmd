@@ -43,7 +43,11 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> winters.scarlett.e@gmail.com
+<<<<<<< HEAD
 - <i class="fa fa-linkedin"></i> [/scarlett-winters](www.linkedin.com/in/scarlett-winters)
+=======
+- <i class="fa fa-linkedin"></i> [/scarlett-winters](https://www.linkedin.com/in/scarlett-winters)
+>>>>>>> d8ca56d24d369278b6379224701ff82201ef0172
 - <i class="fa fa-github"></i> [github.com/scarlett425](https://github.com/scarlett425)
 - <i class="fa fa-phone"></i> (312) 805-9540
 
@@ -55,6 +59,10 @@ Skills {#skills}
 - Tableau
 - R
 - ETL
+<<<<<<< HEAD
+=======
+- Presentations
+>>>>>>> d8ca56d24d369278b6379224701ff82201ef0172
 - Data visualization
 - Requirements analysis
 - Consulting
@@ -62,6 +70,7 @@ Skills {#skills}
 - Predictive analytics
 - Git
 
+<<<<<<< HEAD
 Fun Facts {#projects}
 --------------------------------------------------------------------------------
 
@@ -75,6 +84,18 @@ Fun Facts {#projects}
 - Pasttimes include Krav Maga, cooking, and finding new podcasts
 
 - This resume was written using the pagedown package in R.
+=======
+Analytical Pursuits {#projects}
+--------------------------------------------------------------------------------
+
+- A "Digital Me" analysis of my Google Location data
+
+- Predictive analysis surrounding Chicago crime data
+
+- Study on global coastal waste
+
+- #TidyTuesday challenges
+>>>>>>> d8ca56d24d369278b6379224701ff82201ef0172
 
 --------------------------------------------------------------------------------
 
