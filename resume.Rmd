@@ -20,7 +20,7 @@ library(rmarkdown)
 library(knitr)
 
 # Set this to true to have links turned into footnotes at the end of the document
-PDF_EXPORT <- FALSE
+PDF_EXPORT <- TRUE
 
 # Holds all the links that were inserted for placement at the end
 links <- c()
@@ -43,28 +43,39 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> winters.scarlett.e@gmail.com
-- <i class="fa fa-twitter"></i> @ScarData
-- <i class="fa fa-linkedin"></i> linkedin.com/in/scarlett-winters
-- <i class="fa fa-github"></i> github.com/scarlett425
+- <i class="fa fa-linkedin"></i> [/scarlett-winters](www.linkedin.com/in/scarlett-winters)
+- <i class="fa fa-github"></i> [github.com/scarlett425](https://github.com/scarlett425)
 - <i class="fa fa-phone"></i> (312) 805-9540
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-Highly experienced in:
-
 - SQL
 - Python
 - Tableau
+- R
+- ETL
+- Presentations
+- Data visualization
 - Requirements analysis
 - Consulting
 - Code review
-
-Continuous understanding in:
-
-- R
 - Predictive analytics
-- Software development practices
+- Git
+
+Fun Facts {#projects}
+--------------------------------------------------------------------------------
+
+- Board member for [R-Ladies Chicago](https://rladieschicago.org)
+
+- Former projects include: 
+  - A predictive analysis of Chicago crime data in Python
+  
+  - Python-based UI (Tkinter) to predict Kickstarter success
+
+- Pasttimes include Krav Maga, cooking, and finding new podcasts
+
+- This resume was written using the pagedown package in R.
 
 --------------------------------------------------------------------------------
 
@@ -92,7 +103,7 @@ position_data %>% print_section('education')
 ```
 
 
-Academic Achievements & Projects {data-icon=suitcase}
+Projects {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
