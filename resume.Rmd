@@ -38,6 +38,7 @@ position_data <- read_csv('positions.csv') %>%
 Aside
 ================================================================================
 
+![Scarlett Winters](https://ca.slack-edge.com/T6AUCDC6S-UH6QWMCEM-ef453755d80c-512){width=80%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -51,16 +52,14 @@ Skills {#skills}
 --------------------------------------------------------------------------------
 
 - SQL
-- Python
+- Excel
 - Tableau
 - R
-- ETL
+- Python
 - Data visualization
+- Data presentation
 - Requirements analysis
-- Consulting
-- Code review
 - Predictive analytics
-- Git
 
 Fun Facts {#projects}
 --------------------------------------------------------------------------------
