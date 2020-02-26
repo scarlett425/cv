@@ -100,7 +100,7 @@ position_data %>% print_section('education')
 ```
 
 
-Projects {data-icon=suitcase}
+Projects {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
