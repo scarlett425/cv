@@ -1,5 +1,5 @@
 ---
-title: Scarlett Winters' Resume"
+title: Scarlett Winters' Resume
 author: Scarlett Winters
 date: "`r Sys.Date()`"
 output:
@@ -38,26 +38,30 @@ position_data <- read_csv('positions.csv') %>%
 Aside
 ================================================================================
 
-![Scarlett Winters](https://ca.slack-edge.com/T6AUCDC6S-UH6QWMCEM-ef453755d80c-512){width=80%}
-
 Contact {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> winters.scarlett.e@gmail.com
 - <i class="fa fa-linkedin"></i> [/scarlett-winters](https://www.linkedin.com/in/scarlett-winters/)
-- <i class="fa fa-github"></i> [github.com/scarlett425](https://github.com/scarlett425)
+- <i class="fa fa-github"></i> [Portfolio on Github](https://github.com/scarlett425/portfolio)
 - <i class="fa fa-phone"></i> (312) 805-9540
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 
 - SQL
-- Excel
 - Tableau
-- R
-- Python
+- Data analysis
+- Data automation
+- Microsoft Office Suite
+- Salesforce
+- Data reporting
+- Data governance
+- R (tidyverse, shiny)
+- Python (scipy, scikit-learn, numpy)
+- Business acumen
 - Data visualization
-- Data presentation
+- Qualitative coding
 - Requirements analysis
 - Predictive analytics
 
@@ -66,14 +70,9 @@ Fun Facts {#projects}
 
 - This resume was written using the pagedown package in R.
 
-- Board member for [R-Ladies Chicago](https://rladieschicago.org)
+- I am a board member for [R-Ladies Chicago](https://rladieschicago.org), which empowers marginalized communities to be data science leaders.
 
-- Former projects include: 
-  - A predictive analysis of Chicago crime data in Python
-  
-  - Python-based UI (Tkinter) to predict Kickstarter success
-
-- Pasttimes include Krav Maga, cooking, and finding new podcasts
+- My pasttimes include Krav Maga, cooking, and finding new podcasts. Ask me what my favorite podcasts are.
 
 
 Disclaimer {#disclaimer}
@@ -91,22 +90,6 @@ Main
 Scarlett Winters {#title}
 --------------------------------------------------------------------------------
 
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('education')
-```
-
-
-Projects {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('academic_achievements')
-```
-
 Positions {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
@@ -116,3 +99,16 @@ position_data %>% print_section('professional_experience')
 ```
 
 
+Non-9-5 Projects {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('academic_achievements')
+```
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('education')
+```
