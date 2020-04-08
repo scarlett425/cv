@@ -49,30 +49,24 @@ Contact {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- SQL
-- Tableau
+- R (tidyverse)
+- Python (pandas, scikit-learn, numpy)
 - Data analysis
-- Data automation
-- Microsoft Office Suite
-- Salesforce
+- Data collection
+- Technical documentation
 - Data reporting
-- Data governance
-- R (tidyverse, shiny)
-- Python (scipy, scikit-learn, numpy)
-- Business acumen
-- Data visualization
-- Qualitative coding
+- Project management
+- Public presentations
 - Requirements analysis
-- Predictive analytics
 
 Fun Facts {#projects}
 --------------------------------------------------------------------------------
 
 - This resume was written using the pagedown package in R.
 
-- I am a board member for [R-Ladies Chicago](https://rladieschicago.org), which empowers marginalized communities to be data science leaders.
+- I am a board member for [R-Ladies Chicago](https://rladieschicago.org), which empowers marginalized genders to be data science leaders.
 
-- My pasttimes include Krav Maga, cooking, and finding new podcasts. Ask me what my favorite podcasts are.
+- My pasttimes include Krav Maga, cooking, and watching documentaries. Ask me what my favorite documentaries are.
 
 
 Disclaimer {#disclaimer}
