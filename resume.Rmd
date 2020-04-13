@@ -49,6 +49,7 @@ Contact {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
+- SQL
 - R (tidyverse)
 - Python (pandas, scikit-learn, numpy)
 - Data analysis
@@ -57,7 +58,10 @@ Skills {#skills}
 - Data reporting
 - Project management
 - Public presentations
+- Technical training
 - Requirements analysis
+- SDLC
+- Code review
 
 Fun Facts {#projects}
 --------------------------------------------------------------------------------
