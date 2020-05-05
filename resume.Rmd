@@ -51,9 +51,10 @@ Skills {#skills}
 
 - SQL
 - R (tidyverse)
-- Python (pandas, scikit-learn, numpy)
+- Python (Jupyter, pandas, scikit-learn, numpy)
 - Data analysis
 - Data collection
+- Requirements analysis
 - Technical documentation
 - Data reporting
 - Project management
